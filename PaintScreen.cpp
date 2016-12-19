@@ -17,11 +17,15 @@ void DrawScreen::PaintOnScreen(HDC hdc) {
 
 	Pen thePenBlack(Color(255, 0, 0, 0));
 
-	//If you wish to create more than k=4, then just add more colors here and in the switch  
+	//////////////////////////////////////////////////////////////////////////////////////////////
+	//If you wish to create more than k=4, then just add more colors here and in the switch just below
+	/////////////////////////////////////////////////////////////////////////////////////////
 	SolidBrush theBrushBlue(Color(255, 0, 0, 255));
 	SolidBrush theBrushRed(Color(255, 255, 0, 0));
 	SolidBrush theBrushGreen(Color(255, 0, 255, 0));
 	SolidBrush theBrushBlack(Color(255, 0, 0, 0));
+
+
 
 
 	int _diameter = 10;
@@ -41,11 +45,13 @@ void DrawScreen::PaintOnScreen(HDC hdc) {
 			DrawLine(theGraphics1, thePenBlack, a.first, a.second);
 		}
 
-		//Draw perpendicular line
+		//Draw perpendicular line. 
 		//DrawPerpendicularLine(theGraphics1, thePenBlack);
 
 		//Draw cricles to represent data
 		for (int i = 0; i < clusterNum; i++) {
+
+			////////////////////////////////////////////////////////////////////////////////////////////
 			switch (i) {
 			case 0:
 				//Using colors to separate data into their groups
@@ -60,6 +66,10 @@ void DrawScreen::PaintOnScreen(HDC hdc) {
 			case 3:
 				DrawCircles(theGraphics1, theBrushBlack, _diameter, 0, _CG.holdClusters[i]);
 				break;
+
+			///////////////////////////////////////////////////////////////////////////////////////
+				//// ADD MORE CASES, FOR MORE COLORS
+
 			}
 		}
 
