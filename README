@@ -1,0 +1,20 @@
+By default sorts into 3 groups. 
+Can set higher number of groups
+Can set higher number of data points
+
+I only created 4 colors. To do more, Must manually add new colors in PaintScreen.cpp file
+Inside PaintOnScreen() function
+
+Left mouse click to see every round
+
+Right mouse click to generate new data points
+
+using win32
+
+drawing on screen using GDI+
+
+Just a small demostration about K Mean
+Colored circle represents the data points
+
+"x"  mark the k mean points for each cluster
+
