@@ -1,0 +1,20 @@
+﻿  PaintScreen.cpp
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(80): warning C4018: '<': signed/unsigned mismatch
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(93): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(94): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(95): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(96): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(113): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(114): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(116): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\paintscreen.cpp(117): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Main.cpp
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\main.cpp(131): warning C4065: switch statement contains 'default' but no 'case' labels
+  Clusters.cpp
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\clusters.cpp(29): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\clusters.cpp(91): warning C4018: '<': signed/unsigned mismatch
+c:\users\david\documents\visual studio 2015\projects\kmeanclusters\kmeanclusters\clusters.cpp(109): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  KMeanClusters.vcxproj -> c:\users\david\documents\visual studio 2015\Projects\KMeanClusters\Debug\KMeanClusters.exe
+  KMeanClusters.vcxproj -> c:\users\david\documents\visual studio 2015\Projects\KMeanClusters\Debug\KMeanClusters.pdb (Partial PDB)
